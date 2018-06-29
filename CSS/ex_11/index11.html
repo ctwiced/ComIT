@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learning CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #container {
+            background-color: grey;
+            width: 600px;
+            margin: 0 auto;
+        }
+        /* I guess you can't use #container in place of div. maybe I read the instructions wrong. seems to work now that I'm using div. The instructions said: Select all the link element that are children of the container id element and apply the following styles */
+        div > a { 
+            display: block;
+            text-align: center;
+            /* remove the white color from here turns the text purple, but the hover over color change works now. why? */
+            color: white;
+            text-decoration: none;
+            border-bottom: 1px solid black;
+            padding: 10px;
+            text-transform: uppercase;
+        }
+        a:hover {
+            color: grey;
+            background-color:white;
+        }       
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+    </div>
+  </body>
+</html>

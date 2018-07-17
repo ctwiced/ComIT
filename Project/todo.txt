@@ -1,0 +1,7 @@
+Learn best practices for footer content (google)
+Figure out how to align the header logo and other content (login/signup stuff)
+Fix login button (make it look better and custom)
+Implement carousel
+Implement Filter
+Figure out database junk
+Figure out upload

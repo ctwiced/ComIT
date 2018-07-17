@@ -8,6 +8,12 @@
 		},
 		{
 			"path": "Project"
+		},
+		{
+			"path": "JS"
+		},
+		{
+			"path": "Browser"
 		}
 	]
 }
